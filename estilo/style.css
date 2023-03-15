@@ -104,7 +104,7 @@ article{
     padding: 5%;
 }
 button{
-    
+    border-radius: 8px;
     width: 30%;
     height: 7vh;
     font-family: var(--font_iceland);
@@ -116,6 +116,7 @@ button{
 .green>p{
     margin: 0px auto;
     border: 1px solid beige;
+    border-radius: 8px;
     padding: 2% 10%;
     width: 70%;
 }
@@ -128,6 +129,7 @@ button{
 .gray>p{
     margin: 0px auto;
     border: 1px solid beige;
+    border-radius: 8px;
     padding: 2% 10%;
     width: 70%;
 }
