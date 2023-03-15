@@ -42,13 +42,17 @@ body{
     background-repeat: no-repeat;
     background-size: auto;
     background-position: right center;
+    height: 720px;
 }
 .conteiner{
+    position: relative;
     margin: 0px auto;
     width: 80%;
 }
 header{
     display: flex;
+    position: sticky;
+    border: collapse;
     background-attachment: fixed;
 }
 header>picture{
@@ -76,27 +80,33 @@ header>nav>ul>li>a:hover{
 }
 
 main>section>h1{
+    margin: 0px auto;
     color: red;
     font-family: var(--font_iceland);
     font-size: 3vw;
-
+    padding-top: 5%;
 }
 main>section>article{
     font-family: var(--font_robotomono);
     font-size: 1.8vw;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0px ;
+    width: 70%;
+}
+article{
+    margin-right: 10vw;
 }
 #box{
     margin: 0px;
     background-color: rgba(0, 0, 0, 0.651);
     border-radius: 10px;
-    padding: 10%;
+    padding: 5%;
 }
 button{
     
     width: 30%;
-    height: 5vh;
+    height: 7vh;
     font-family: var(--font_iceland);
     font-weight: bold;
 }
@@ -109,6 +119,9 @@ button{
     padding: 2% 10%;
     width: 70%;
 }
+.green:hover{ 
+    background-color: darkgreen;
+}
 .gray{
     background-color: gray;
 }
@@ -117,4 +130,51 @@ button{
     border: 1px solid beige;
     padding: 2% 10%;
     width: 70%;
+}
+.gray:hover{
+    background-color: darkslategray;
+}
+main>section>h3{
+    font-family: var(--font_iceland);
+    font-size: 1.5em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+main>section>div>ul{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+main>section>div>ul>#rom{
+    background-image: url(../imagens/img\ 3\ ps0000.jpg);
+    background-repeat: no-repeat;
+    font-family: var(--font_iceland);
+    width: 80%;
+    height: 100vh;
+
+
+}
+main>section>div>ul>#sur{
+    background-image: url(../imagens/images1\ 300.png);
+    background-repeat: no-repeat;
+    font-family: var(--font_iceland);
+    width: 80%;
+    height: 100vh;
+
+}
+main>section>div>ul>#adv{
+    background-image: url(../imagens/img4\ ps0000.jpg);
+    background-repeat: no-repeat;
+    font-family: var(--font_iceland);
+    width: 80%;
+    height: 100vh;
+
+}
+main>section>div>ul>li>p{
+    text-align: center;
+    padding: 25%;
 }
