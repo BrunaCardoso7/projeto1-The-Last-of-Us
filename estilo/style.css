@@ -39,6 +39,9 @@ body{
 /*conf global*/
 .home{
     background-image: url(../imagens/background0000.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: -10px -10px -10px black;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: right center;
@@ -209,4 +212,12 @@ main>section>div>ul>#adv:hover{
 main>section>div>ul>li>p{
     text-align: center;
     padding: 25%;
+}
+#episodes{
+    margin: auto;
+    height: 100vh;
+}
+#episodes>.flex>img{
+    width: 180px;
+    border-radius: 5px;
 }
