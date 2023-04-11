@@ -50,27 +50,36 @@ body{
     width: 80%;
 }
 header{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.652);
+    width: 80vw;
+    height: 10%;
     display: flex;
-    position: sticky;
-    border: collapse;
+    position: fixed;
+    padding-bottom: 0px;
     background-attachment: fixed;
+    border-radius: 0px 0px 10px 10px ;
 }
 header>picture{
     margin: 0px;
+    padding-right: 100px;
 }
 header>picture>img{
-    width: 30vw;
+    width: 20vw;
+    margin-left: 50px;
+    
 }
 nav{
     font-family: var(--font_iceland);
-    width: 70%;
+    width: 100%;
+    padding-right: 20%;
 }
 header>nav>ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
-    padding-top: 5%;
+    gap: 70px;
+    padding: 5%;
 }
 header>nav>ul>li>a{
     color: darkgrey;
@@ -78,7 +87,9 @@ header>nav>ul>li>a{
 header>nav>ul>li>a:hover{
     color: white;
 }
-
+main{
+    padding-top: 100px;
+}
 main>section>h1{
     margin: 0px auto;
     color: red;
@@ -113,7 +124,7 @@ button{
 .green{
     background-color: var(--corgreen);
 }
-.green>p{
+.green>a>p{
     margin: 0px auto;
     border: 1px solid beige;
     border-radius: 8px;
@@ -122,11 +133,12 @@ button{
 }
 .green:hover{ 
     background-color: darkgreen;
+    letter-spacing: 0.2em;
 }
 .gray{
     background-color: gray;
 }
-.gray>p{
+.gray>a>p{
     margin: 0px auto;
     border: 1px solid beige;
     border-radius: 8px;
@@ -135,6 +147,8 @@ button{
 }
 .gray:hover{
     background-color: darkslategray;
+    letter-spacing: 0.2em;
+
 }
 main>section>h3{
     font-family: var(--font_iceland);
@@ -157,8 +171,14 @@ main>section>div>ul>#rom{
     font-family: var(--font_iceland);
     width: 80%;
     height: 100vh;
+   
 
 
+}
+main>section>div>ul>#rom:hover{
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+    color: #04DF00;
 }
 main>section>div>ul>#sur{
     background-image: url(../imagens/images1\ 300.png);
@@ -168,6 +188,11 @@ main>section>div>ul>#sur{
     height: 100vh;
 
 }
+main>section>div>ul>#sur:hover{
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+    color: #04DF00;
+}
 main>section>div>ul>#adv{
     background-image: url(../imagens/img4\ ps0000.jpg);
     background-repeat: no-repeat;
@@ -175,6 +200,11 @@ main>section>div>ul>#adv{
     width: 80%;
     height: 100vh;
 
+}
+main>section>div>ul>#adv:hover{
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+    color: #04DF00;
 }
 main>section>div>ul>li>p{
     text-align: center;
