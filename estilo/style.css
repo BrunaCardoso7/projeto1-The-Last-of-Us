@@ -221,3 +221,37 @@ main>section>div>ul>li>p{
     width: 180px;
     border-radius: 5px;
 }
+
+.flex>#sinopse{
+    background-color: rgba(0, 0, 0, 0.694);
+    padding: 10px;
+    width: 39%;
+    border-radius: 5px;
+}
+.flex>#sinopse>article{
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    width: 60%;
+    font-family: var(--font_robotomono);
+    padding-bottom: 20px;
+}
+.flex>#sinopse>h2{
+    color: #04DF00;
+    text-align: justify;
+    padding: 13px;
+    font-family: var(--font_iceland);
+    font-size: 3rem;
+}
+#episodios{
+    padding-top: 8px;
+}
+#episodes>h2{
+    color: darkred;
+    font-family: var(--font_iceland);
+    font-size: 3rem;
+    padding-top: 52px;
+}
+.flex>#episodes>#tamanho{
+    color: #04DF00;
+}
