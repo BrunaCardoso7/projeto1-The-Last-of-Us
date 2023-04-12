@@ -88,7 +88,7 @@ header>nav>ul>li>a{
     color: darkgrey;
 }
 header>nav>ul>li>a:hover{
-    color: white;
+    color: rgb(243, 95, 243);
 }
 main{
     padding-top: 100px;
@@ -217,7 +217,7 @@ main>section>div>ul>li>p{
     margin: auto;
     height: 100vh;
 }
-#episodes>.flex>img{
+#episodes>.episodios>img{
     width: 180px;
     border-radius: 5px;
 }
@@ -243,7 +243,10 @@ main>section>div>ul>li>p{
     font-family: var(--font_iceland);
     font-size: 3rem;
 }
-#episodios{
+.episodios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-top: 8px;
 }
 #episodes>h2{
@@ -252,6 +255,9 @@ main>section>div>ul>li>p{
     font-size: 3rem;
     padding-top: 52px;
 }
-.flex>#episodes>#tamanho{
-    color: #04DF00;
+.flex>#episodes>.episodios>.texto{
+    padding-left: 15px;
+}
+.flex>#episodes>.episodios>.texto>article{
+    font-size: 13px;
 }
