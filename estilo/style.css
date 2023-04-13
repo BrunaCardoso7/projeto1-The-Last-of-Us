@@ -261,3 +261,15 @@ main>section>div>ul>li>p{
 .flex>#episodes>.episodios>.texto>article{
     font-size: 13px;
 }
+footer{
+    background: linear-gradient(to top, purple, rgb(32, 32, 32));
+    border-top: 1px solid gray;
+}
+#rodape>img{
+    width: 15%;
+    padding-top: 10px;
+}
+#rodape>p{
+    text-align: center;
+    margin-left: 30px;
+}
